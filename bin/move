@@ -5,4 +5,4 @@ puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 board = gets.string
 display_board(board)
-#Code your CLI Here
+# Code your CLI Here
