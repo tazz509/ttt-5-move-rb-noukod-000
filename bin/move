@@ -6,7 +6,8 @@ board = [" ", " ", " "," "," "," "," "," "," "]
 puts "Where would you like to go?"
 
 input = gets.strip
-input_to_index=index
+input_to_index(input)=index
+move(array, index, value="X")
 display_board(board)
 
 # Code your CLI Here
