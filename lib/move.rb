@@ -10,8 +10,8 @@ def input_to_index input
   return input.to_i - 1
 end
 
-def update_array_at_with(array, index, value="X")
-  array[index] = value 
+def move(array, index, value="X")
+  array[index] = value
 end
 
 
